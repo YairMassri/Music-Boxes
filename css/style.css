@@ -1,0 +1,29 @@
+body{
+    background-color: springgreen;
+    margin: 0;
+    padding: 0;
+}
+
+.keys{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+}
+
+.key{
+    border: 1px solid black;
+    min-height: 14vh;
+    min-width: 3.5vw;
+    background-color:teal;
+    color: aliceblue;
+}
+.click{
+    margin-top: 3cm;
+    display: flex;
+    justify-content: center;
+}
+
+.click img{
+    max-width: 85vh;
+    max-height: 30vw;
+}
