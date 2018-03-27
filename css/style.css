@@ -5,11 +5,20 @@ body{
 }
 
 .keys{
+    border: 1cm solid brown;
     margin-top: 1cm;
     display: flex;
     justify-content: center;
 }
-
+.keys h1{
+    color: rgb(39, 73, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1cm;
+}
+.key:hover{
+    background-color: black;
+    font-size: 1cm;
+}
 .key{
     border: 1px solid black;
     min-height: 14vh;
@@ -24,6 +33,7 @@ body{
 }
 
 .click img{
-    max-width: 85vh;
-    max-height: 30vw;
+    margin-left: 1cm;
+    max-width: 90vh;
+    max-height: 20.6vw;
 }
